@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+.First{
+    background-color: cadetblue;
+    height: 100%;
+}
+.nav{
+    color: rgb(214, 4, 4);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin-left: 15%;
+}
+ul{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+
+}
+a{
+    color:#f1e8e8;
+    padding: 5px 10px;
+}
+li{
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+.nav li ::before{
+    content: "|";
+    padding-right:10px ;
+}
+.Company-icon {
+    width: 10%;
+    height: 30px;
+    margin-left: 40%;
+}
+
+.nav-separator{
+    margin: 0;
+    border: none;
+    border-top: 1px solid #fff;
+    flex-grow: 1;
+}
+#NavHr{
+    margin-left: 15%;
+}
+
+.contentFirst{
+display: grid;
+  margin-left: 45%;
+  margin-top: 10%;
+  align-items: center;
+}
+.contentFirst button{
+    border-radius: 10px;
+    color: #060055;
+    font-size: 20px;
+    box-shadow: 0px 4px 8px;
+}
+.contentFirst h1{
+    width: 35%;
+    color: #fff;
+
+}
+#FirstButton{
+margin-left: 10px;
+align-content: center;
+width: 20%;
+background-color: rgb(27, 214, 214);
+}
+#SecondButton{
+    margin-left: 25px;
+    width: 15%;
+    background-color: rgb(247, 105, 4);
+}
+hr{
+    width: 80%;
+    margin-left: 25px;
+    background-color: aqua;
+}
+h3{
+    color: #ffffff;
+}
+ 
+
+#imageDiv{
+    height: 15%;
+}
+.people{
+    margin-left: 20%;
+    
+}
+.Paragraph{
+    display: block;
+    margin-left: 80%;
+}
+.ParagraphContent{
+    background-color: #ffffff;
+    color: black;
+    border-radius:10px ;
+    width: 30%;
+    align-items: center;
+    align-content: center;
+
+}
+.Second{
+    background-color: #fff;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.Second h2{
+    margin-left: 40%;
+    text-decoration: underline rgb(27, 214, 214);
+    color: #060055;
+    
+}
+.Bag{
+    background-color: #fff;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    justify-content: space-between;
+    box-shadow: 0px 2px 2px rgb(221, 217, 217);
+    padding: 20px;
+}
+.Bag h6{
+    margin-left: 35%;
+    color: #060055;
+    font-size: 20px;
+}
+.Bag p{
+    margin-left: 20%;
+}
+.FirstLine{
+    display: flex;
+}
+.SecondLine{
+    display: flex;
+}
+#image{
+    margin-left: 30%;
+    width: 20%;
+    height: 40%;
+}
+.Third{
+margin-top: 5px;
+height: 30%;
+width: 100%;
+ display: flex;  
+ background-color: #221d66; 
+ align-items: center;
+}
+.Three{
+    margin-left: 20%;
+    display: grid;
+}
+.Three b{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.img{
+    width: 10%;
+    height: 10%;
+}
+.Forth{
+    background-color: #e7711e;
+    width: 100%;
+    margin-top: 0%;
+    padding: 20px;
+}
+.headFour{
+    
+    margin-left: 45%;
+    text-decoration: underline #fff;
+    color: #060055;
+}
+.Cards{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.Card{
+    
+    height: 30%;
+    width: 22%;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgb(221, 217, 217);
+}
+.Card b{
+    margin-left: 40%;
+    color: #060055;
+}
+.GeneralCosts{
+    display: flex;
+    margin-left: 50px;
+}
+
+.Costs{
+    display: flex;
+    margin-left: 50px;
+}
+#symbol{
+    margin-left: 35%;
+}
+#number{
+    text-decoration: underline cyan;
+    font-weight: bold;
+    
+}
+.fifth{
+background-color: #fff;
+
+margin-top: 20px;
+}
+form{
+    margin-left: 60%;
+}
+.fifth input{
+   width: 30%;
+   padding: 10px;
+
+
+}
+.fifth label{
+    display: block;
+    margin-bottom: 10px;
+}
+.line1{
+    display: flex;
+}
+.fifth h2{
+    margin-left: 30%;
+    color: #060055;
+}
+.fifth h4{
+    margin-left: 45%;
+}
+.fifth p{
+    margin-left: 40%;
+}
+.BagCosts{
+    display: flex;
+    padding: 20px;
+    margin-left: 10%;  
+    justify-content: space-evenly;  
+}
+.OneBag{
+    box-shadow: 0px 2px 2px rgb(221, 217, 217);
+    width: 20%;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+}
+.OneBag input{
+    margin-left: 30%;
+
+}
+.OneBag b{
+    margin-left: 30%;
+}
+footer{
+    background-color: #adabab;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+}
+.footer-right img{
+ margin-left: 10%;
+ width: 30%;
+ height: 20%;
+}
+.Company-Name{
+    display: flex;
+}
